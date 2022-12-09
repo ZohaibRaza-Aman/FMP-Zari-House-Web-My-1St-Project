@@ -61,6 +61,58 @@ h6 {
   overflow: visible;
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
+/* Button Makkah*/
+.button1{
+  padding: 5px 20px;
+    border: none;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: floralwhite;
+    border-radius: 0px 50px;
+    background-color: #bf3a3896;
+    text-shadow: 3px 3px black;
+}
+
+/* Button Mohsin*/
+.button2{
+  padding: 5px 20px;
+    border: none;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: floralwhite;
+    border-radius: 0px 50px;
+    background-color:  #09d47280;
+    text-shadow: 3px 3px black;
+}
+
+/* Button Wedding*/
+.button3{
+    padding: 5px 20px;
+    border: none;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: floralwhite;
+    border-radius: 0px 50px;
+    background-color:  #c309d480;
+    text-shadow: 3px 3px black;
+}
+
+/* Button Wedding*/
+.button4{
+  padding: 5px 20px;
+  border: none;
+  font-size: 11px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: floralwhite;
+  border-radius: 0px 23px;
+  background-color: #91640380;
+  text-shadow: 3px 3px black;
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -903,140 +955,214 @@ h6 {
 # Wedding Section
 --------------------------------------------------------------*/
 #Wedding {
+  padding: 60px 0 30px 0;
+}
+
+#Wedding .speaker {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border: 5px solid black;
+  border-radius: 10px;
+  box-shadow:4px 4px 10px 1px #c309d480;
+}
+
+#Wedding .speaker .details {
+  background: rgba(6, 12, 34, 0.76);
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#Wedding .speaker .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#Wedding .speaker .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#Wedding .speaker .details .social {
+  height: 40px;
+}
+
+#Wedding .speaker .details .social i {
+  line-height: 0;
+  margin: 0 2px;
+}
+
+#Wedding .speaker .details a {
+  color: #fff;
+}
+
+#Wedding .speaker .details a:hover {
+  color: #f82249;
+}
+
+#Wedding .speaker:hover .details {
+  bottom: 0;
+}
+
+#Wedding-details {
   padding: 60px 0;
 }
 
-#Wedding .container-fluid {
-  margin-bottom: 3px;
-}
-
-#Wedding .Wedding-map iframe {
-  width: 100%;
-  height: 100%;
-  min-height: 300px;
-}
-
-#Wedding .Wedding-info {
-  background: url("../img/vanue-info-bg.jpg") top center no-repeat;
-  background-size: cover;
-  position: relative;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-#Wedding .Wedding-info:before {
-  content: "";
-  background: rgba(13, 20, 41, 0.8);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#Wedding .Wedding-info h3 {
-  font-size: 36px;
+#Wedding-details .details h2 {
+  color: #112363;
+  font-size: 28px;
   font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#Wedding-details .details .social {
+  margin-bottom: 15px;
+}
+
+#Wedding-details .details .social a {
+  background: #e9edfb;
+  color: #112363;
+  line-height: 1;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Wedding-details .details .social a:hover {
+  background: #f82249;
   color: #fff;
 }
 
-@media (max-width: 574px) {
-  #Wedding .Wedding-info h3 {
-    font-size: 24px;
-  }
+#Wedding-details .details .social a i {
+  font-size: 16px;
+  line-height: 0;
 }
 
-#Wedding .Wedding-info p {
-  color: #fff;
-  margin-bottom: 0;
-}
-
-#Wedding .Wedding-gallery-container {
-  padding-right: 12px;
-}
-
-#Wedding .Wedding-gallery {
-  overflow: hidden;
-  border-right: 3px solid #fff;
-  border-bottom: 3px solid #fff;
-}
-
-#Wedding .Wedding-gallery img {
-  transition: all ease-in-out 0.4s;
-}
-
-#Wedding .Wedding-gallery:hover img {
-  transform: scale(1.1);
+#Wedding-details .details p {
+  color: #112363;
+  font-size: 15px;
+  margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
 # Party Section
 --------------------------------------------------------------*/
 #Party {
+  padding: 60px 0 30px 0;
+}
+
+#Party .speaker {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border: 5px solid black;
+  border-radius: 10px;
+  box-shadow:4px 4px 10px 1px rgb(251, 102, 47)
+}
+
+#Party .speaker .details {
+  background: rgba(6, 12, 34, 0.76);
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#Party .speaker .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#Party .speaker .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#Party .speaker .details .social {
+  height: 40px;
+}
+
+#Party .speaker .details .social i {
+  line-height: 0;
+  margin: 0 2px;
+}
+
+#Party .speaker .details a {
+  color: #fff;
+}
+
+#Party .speaker .details a:hover {
+  color: #f82249;
+}
+
+#Party .speaker:hover .details {
+  bottom: 0;
+}
+
+#Party-details {
   padding: 60px 0;
 }
 
-#Party .container-fluid {
-  margin-bottom: 3px;
-}
-
-#Party .Party-map iframe {
-  width: 100%;
-  height: 100%;
-  min-height: 300px;
-}
-
-#Party .Party-info {
-  background: url("../img/vanue-info-bg.jpg") top center no-repeat;
-  background-size: cover;
-  position: relative;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-#Party .Party-info:before {
-  content: "";
-  background: rgba(13, 20, 41, 0.8);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#Party .Party-info h3 {
-  font-size: 36px;
+#Party-details .details h2 {
+  color: #112363;
+  font-size: 28px;
   font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#Party-details .details .social {
+  margin-bottom: 15px;
+}
+
+#Party-details .details .social a {
+  background: #e9edfb;
+  color: #112363;
+  line-height: 1;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Party-details .details .social a:hover {
+  background: #f82249;
   color: #fff;
 }
 
-@media (max-width: 574px) {
-  #Party .Party-info h3 {
-    font-size: 24px;
-  }
+#Party-details .details .social a i {
+  font-size: 16px;
+  line-height: 0;
 }
 
-#Party .Party-info p {
-  color: #fff;
-  margin-bottom: 0;
-}
-
-#Party .Party-gallery-container {
-  padding-right: 12px;
-}
-
-#Party .Party-gallery {
-  overflow: hidden;
-  border-right: 3px solid #fff;
-  border-bottom: 3px solid #fff;
-}
-
-#Party .Party-gallery img {
-  transition: all ease-in-out 0.4s;
-}
-
-#Party .Party-gallery:hover img {
-  transform: scale(1.1);
+#Party-details .details p {
+  color: #112363;
+  font-size: 15px;
+  margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
