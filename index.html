@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>TheEvent Bootstrap Template - Index</title>
+  <title>Wellcome to Waseem Zari House</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -23,7 +23,11 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- font aowsome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
   <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="assets/css/lightbox.min.css">
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
@@ -43,7 +47,7 @@
       <div id="logo" class="me-auto">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
-        <a href="index.html" class="scrollto"><img src="assets/img/w1.png" alt=""></a>
+        <img src="assets/img/w1.png" alt="" width="100%" height="100%" class="logo">
       </div>
       <!-- navbar -->
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -51,30 +55,13 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#Makkah">Makkah Design</a></li>
-          <li><a class="nav-link scrollto" href="#Mohsin">Mohsin Design</a></li>
+          <li><a class="nav-link scrollto" href="#Mohsin">Waseem Design</a></li>
           <li><a class="nav-link scrollto" href="#Wedding">Wedding Design</a></li>
           <li><a class="nav-link scrollto" href="#Party">Party Design</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#supporters">Sponsors</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="#">Drop Down 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-              <ul>
-                <li><a href="#">Deep Drop Down 1</a></li>
-                <li><a href="#">Deep Drop Down 2</a></li>
-                <li><a href="#">Deep Drop Down 3</a></li>
-                <li><a href="#">Deep Drop Down 4</a></li>
-                <li><a href="#">Deep Drop Down 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Drop Down 2</a></li>
-            <li><a href="#">Drop Down 3</a></li>
-            <li><a href="#">Drop Down 4</a></li>
-          </ul>
-        </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="buy-tickets scrollto" href="#buy shop">Shop</a></li>
+          <li><a class="buy-tickets scrollto" href="Shop/Shop.html">Shop</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -85,7 +72,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-      <a href="Banner vid/banner.mp4" class="glightbox play-btn mb-4"></a>
+      <a href="Banner vid/banner.mp4" class=" play-btn mb-4"></a>
     </div>
   </section><!-- End Hero Section -->
 
@@ -114,10 +101,11 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 1" class="img-fluid">
+              <a href="assets/img/makkah/1.jpg" data-lightbox="example-1"><img src="assets/img/makkah/1.jpg" class="img-fluid" alt=""></a>
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-1</a></h3>
-                <button class="button1">ADD TO CART</button>
+                <h3><a href="">Makkah Vol-1</a></h3>
+                <h5 class="fw-bold bg-warning">Rs.65000</h5>
+                <button class="button1" onclick="codeParty01()">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -129,10 +117,11 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 2" class="img-fluid">
+              <a href="assets/img/makkah/2.jpeg" data-lightbox="example-1"><img src="assets/img/makkah/2.jpeg" class="img-fluid" alt=""></a>
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-2</a></h3>
-                <button class="button1">ADD TO CART</button>
+                <h3><a href="">Makkah Vol-2</a></h3>
+                <h5 class="fw-bold bg-warning">Rs.80000</h5>
+                <button class="button1" onclick="codeParty02()">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -144,10 +133,11 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 3" class="img-fluid">
+              <a href="assets/img/makkah/3.jpeg" data-lightbox="example-1"><img src="assets/img/makkah/3.jpeg" class="img-fluid" alt=""></a>
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-3</a></h3>
-                <button class="button1">ADD TO CART</button>
+                <h3><a href="">Makkah Vol-3</a></h3>
+                <h5 class="fw-bold bg-warning">Rs.70000</h5>
+                <button class="button1" onclick="codeParty03()">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -159,10 +149,11 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 4" class="img-fluid">
+              <a href="assets/img/makkah/4.png" data-lightbox="example-1"><img src="assets/img/makkah/4.png" class="img-fluid" alt=""></a>
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-4</a></h3>
-                <button class="button1">ADD TO CART</button>
+                <h3><a href="">Makkah Vol-4</a></h3>
+                <h5 class="fw-bold bg-warning">Rs.95000</h5>
+                <button class="button1" onclick="codeParty04()">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -174,10 +165,11 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 5" class="img-fluid">
+              <a href="assets/img/makkah/5.jpeg" data-lightbox="example-1"><img src="assets/img/makkah/5.jpeg" class="img-fluid" alt=""></a>
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-5</a></h3>
-                <button class="button1">ADD TO CART</button>
+                <h3><a href="">Makkah Vol-5</a></h3>
+                <h5 class="fw-bold bg-warning">Rs.82000</h5>
+                <button class="button1" onclick="codeParty05()">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -189,10 +181,11 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 6" class="img-fluid">
+              <a href="assets/img/makkah/6.jpg" data-lightbox="example-1"><img src="assets/img/makkah/6.jpg" class="img-fluid" alt=""></a>
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-6</a></h3>
-                <button class="button1">ADD TO CART</button>
+                <h3><a href="">Makkah Vol-6</a></h3>
+                <h5 class="fw-bold bg-warning">Rs.75000</h5>
+                <button class="button1" onclick="codeParty06()">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -211,16 +204,17 @@
     <section id="Mohsin" class="section-with-bg bg-dark">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>Mohsin Collection</h2>
-          <p>by Mohsin</p>
+          <h2>Waseem Collection</h2>
+          <p>by WaseemAli</p>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 1" class="img-fluid">
+              <a href="assets/img/mohsin/1.jpg" data-lightbox="example-2"><img src="assets/img/mohsin/1.jpg" class="img-fluid" alt=""></a>
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-1</a></h3>
-                <button class="button2">ADD TO CART</button>
+                <h3><a href="">Party Vol-1</a></h3>
+                <h5 class="fw-bold text-danger bg-info">Rs.59000</h5>
+                <button class="button2" onclick="code2party01()">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -232,10 +226,11 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 2" class="img-fluid">
+              <a href="assets/img/mohsin/2.jpg" data-lightbox="example-2"><img src="assets/img/mohsin/2.jpg" class="img-fluid" alt=""></a>
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-2</a></h3>
-                <button class="button2">ADD TO CART</button>
+                <h3><a href="">Party Vol-2</a></h3>
+                <h5 class="fw-bold text-danger bg-info">Rs.60000</h5>
+                <button class="button2" onclick="code2party02()">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -247,10 +242,11 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 3" class="img-fluid">
+              <a href="assets/img/mohsin/3.jpg" data-lightbox="example-2"><img src="assets/img/mohsin/3.jpg" class="img-fluid" alt=""></a>
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-3</a></h3>
-                <button class="button2">ADD TO CART</button>
+                <h3><a href="">Party Vol-3</a></h3>
+                <h5 class="fw-bold text-danger bg-info">Rs.60000</h5>
+                <button class="button2" onclick="code2party03()">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -262,10 +258,11 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 4" class="img-fluid">
+              <a href="assets/img/mohsin/4.jpg" data-lightbox="example-2"><img src="assets/img/mohsin/4.jpg" class="img-fluid" alt=""></a>
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-4</a></h3>
-                <button class="button2">ADD TO CART</button>
+                <h3><a href="l">Party Vol-4</a></h3>
+                <h5 class="fw-bold text-danger bg-info">Rs.60000</h5>
+                <button class="button2" onclick="code2party04()">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -277,10 +274,11 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 5" class="img-fluid">
+              <a href="assets/img/mohsin/5.jpg" data-lightbox="example-2"><img src="assets/img/mohsin/5.jpg" class="img-fluid" alt=""></a>
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-5</a></h3>
-                <button class="button2">ADD TO CART</button>
+                <h3><a href="">Party Vol-5</a></h3>
+                <h5 class="fw-bold text-danger bg-info">Rs.60000</h5>
+                <button class="button2" onclick="code2party05()">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -292,10 +290,11 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 6" class="img-fluid">
+              <a href="assets/img/mohsin/6.jpg" data-lightbox="example-2"><img src="assets/img/mohsin/6.jpg" class="img-fluid" alt=""></a>
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-6</a></h3>
-                <button class="button2">ADD TO CART</button>
+                <h3><a href="">Party Vol-6</a></h3>
+                <h5 class="fw-bold text-danger bg-info">Rs.60000</h5>
+                <button class="button2" onclick="code2party06()">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -322,7 +321,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-1</a></h3>
+                <h3><a href="">Party Vol-1</a></h3>
                 <button class="button3">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -337,7 +336,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-2</a></h3>
+                <h3><a href="">Party Vol-2</a></h3>
                 <button class="button3">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -352,7 +351,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-3</a></h3>
+                <h3><a href="">Party Vol-3</a></h3>
                 <button class="button3">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -367,7 +366,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 4" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-4</a></h3>
+                <h3><a href="">Party Vol-4</a></h3>
                 <button class="button3">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -382,7 +381,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 5" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-5</a></h3>
+                <h3><a href="">Party Vol-5</a></h3>
                 <button class="button3">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -397,7 +396,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 5" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-6</a></h3>
+                <h3><a href="">Party Vol-6</a></h3>
                 <button class="button3">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -412,7 +411,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 5" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-7</a></h3>
+                <h3><a href="">Party Vol-7</a></h3>
                 <button class="button3">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -427,7 +426,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 6" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-8</a></h3>
+                <h3><a href="">Party Vol-8</a></h3>
                 <button class="button3">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -455,7 +454,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-1</a></h3>
+                <h3><a href="">Party Vol-1</a></h3>
                 <button class="button4">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -470,7 +469,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-2</a></h3>
+                <h3><a href="">Party Vol-2</a></h3>
                 <button class="button4">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -485,7 +484,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-3</a></h3>
+                <h3><a href="">Party Vol-3</a></h3>
                 <button class="button4">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -500,7 +499,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 4" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-4</a></h3>
+                <h3><a href="">Party Vol-4</a></h3>
                 <button class="button4">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -515,7 +514,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 5" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-5</a></h3>
+                <h3><a href="">Party Vol-5</a></h3>
                 <button class="button4">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -530,7 +529,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 5" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-6</a></h3>
+                <h3><a href="">Party Vol-6</a></h3>
                 <button class="button4">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -545,7 +544,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 5" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-7</a></h3>
+                <h3><a href="">Party Vol-7</a></h3>
                 <button class="button4">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -560,7 +559,7 @@
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
               <img src="https://cdn.shopify.com/s/files/1/0525/9876/7771/products/22_1800x1800_77b0e697-9d20-4823-807f-192443433a66.jpg?v=1612179466" alt="Speaker 6" class="img-fluid">
               <div class="details">
-                <h3><a href="speaker-details.html">Party Vol-8</a></h3>
+                <h3><a href="">Party Vol-8</a></h3>
                 <button class="button4">ADD TO CART</button>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -845,11 +844,11 @@
           <div class="col-lg-6 col-md-12 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#subscribe">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#subscribe">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#subscribe">Privacy policy</a></li>
             </ul>
           </div>
 
@@ -893,7 +892,7 @@
     </div>
   </footer><!-- End  Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="https://wa.me/923212623108" target="_blank" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa-brands fa-whatsapp"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
@@ -904,6 +903,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/lightbox-plus-jquery.min.js"></script>
+  <script src="addtocart.js"></script>
 
 </body>
 

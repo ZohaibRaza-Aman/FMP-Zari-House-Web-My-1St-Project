@@ -202,22 +202,16 @@
     }
   });
 
-  /**
-   * Initiate gallery lightbox 
-   */
+ 
   const galleryLightbox = GLightbox({
     selector: '.gallery-lightbox'
   });
 
- /**
-  * Shop
-  */
+
 
  
 
-  /**
-   * Animation on scroll
-   */
+  
   window.addEventListener('load', () => {
     AOS.init({
       duration: 1000,
